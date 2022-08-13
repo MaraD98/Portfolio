@@ -1,3 +1,8 @@
 div{
-    background-color: violet;
+    background-color: #a31b67;
+}
+
+app-social{
+    float:right;
+    margin-top: 25px;
 }
