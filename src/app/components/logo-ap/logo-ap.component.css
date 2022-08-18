@@ -1,3 +1,71 @@
-#logoAP{
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes{
+    margin-right: 0.5em;
+}
+
+.redes img{
+    margin: 0.2em;
+}
+
+#logoAP {
     width: 150px;
+}
+
+img {
+    width: 50px;
+}
+
+#face {
+    border: dotted;
+    border-radius: 100px;
+    color: black;
+}
+
+#git {
+    border: dotted;
+    border-radius: 100px;
+    color: black;
+}
+
+#insta {
+    border: dotted;
+    border-radius: 100px;
+    color: black;
+}
+
+#tw {
+    border: dotted;
+    border-radius: 100px;
+    color: black;
+}
+
+#linkedin {
+    border: dotted;
+    border-radius: 100px;
+    color: black;
+}
+
+.btn{
+    border-width: medium;
+}
+
+/* ......Vista de un celular A51*/
+
+@media (max-width: 575px){
+    .container{
+        flex-direction: column;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes img{
+        margin: 0.2em;
+    }
 }
