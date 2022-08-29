@@ -9,7 +9,8 @@
             <a href="https://www.instagram.com/maradelgadillo98"><img src="../../../assets/insta1.png" id="insta" alt="Instagram"></a>
             <a href="https://github.com/MaraD98"><img src="../../../assets/github.png" id="git" alt="GitHub"></a>
             <a href="https://www.facebook.com/maradelgadillo98"><img src="../../../assets/face.png" id="face" alt="Facebook"></a>
-            <button type="button" class="btn btn-outline-dark" (click)="login()">INGRESAR</button>
+            <button type="button" class="btn btn-outline-dark" (click)="login()" *ngIf="!issLogged">INGRESAR</button>
+            <button type="button" class="btn btn-outline-dark" (click)="onLogOut()" *ngIf="issLogged">CERRAR SESIÓN</button>
         </div>
     </div>
 </div>
