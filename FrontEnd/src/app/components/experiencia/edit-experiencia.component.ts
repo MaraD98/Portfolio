@@ -27,9 +27,10 @@ expLab: Experiencia = null;
   }
 
   onUpdate(): void{
-    const id= this.activatedRouter.snapshot.params['id'];
+    const id = this.activatedRouter.snapshot.params['id'];
     this.sExperiencia.update(id, this.expLab).subscribe(
       data=> {
+        alert("Experiencia modificada");
         this.router.navigate(['']);
       }, err =>{
         alert("Error al modificar la experiencia");
