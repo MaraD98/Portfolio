@@ -16,7 +16,7 @@ export class LogoAPComponent implements OnInit {
     if(this.tokenService.getToken()){
       this.issLogged = true;
     }else{
-      this.router.navigate(['/login'])
+      this.issLogged = false;
     }
   }
   onLogOut():void{
