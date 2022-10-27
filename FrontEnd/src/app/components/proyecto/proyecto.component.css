@@ -10,5 +10,10 @@
     text-align: justify;
 }
 .img-proyecto{
-    box-shadow: 10px 10xp 30px #000000;
+    box-shadow: 10px 10px 30px #000000;
+}
+@media (min-width: 766px){
+    #img{
+        margin-top: -300px;
+    }
 }
