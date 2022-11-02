@@ -8,7 +8,7 @@
 ------------
 ### Tecnologías utilizadas
 
-HTML5 / CSS / JAVASCRIPT / BOOTSTRAP / TYPESCRIPT / ANGULAR
+HTML5 / CSS / JAVASCRIPT / BOOTSTRAP / TYPESCRIPT / ANGULAR / FIREBASE
 
 ------------
 ### Objetivo
