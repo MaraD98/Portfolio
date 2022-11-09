@@ -20,7 +20,6 @@ export class EditSkillComponent implements OnInit {
     const id = this.activatedRouter.snapshot.params['id'];
     this.skillS.detail(id).subscribe(
       data =>{
-        alert("Skill modificada");
         this.skill = data;
       }, err =>{
         alert("Error al modificar");
@@ -28,6 +27,7 @@ export class EditSkillComponent implements OnInit {
       }
     )
   }
+ 
 
   onUpdate(){
     const id = this.activatedRouter.snapshot.params['id'];
